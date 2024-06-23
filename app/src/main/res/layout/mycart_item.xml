@@ -62,7 +62,11 @@
                     android:id="@+id/detailed_rating"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
                     android:text="@string/_5_0"
+=======
+                    android:text="5.0"
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -73,6 +77,7 @@
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:src="@drawable/dollarsymbol"
+<<<<<<< HEAD
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/detailed_price"
                     app:layout_constraintTop_toTopOf="parent"
@@ -84,6 +89,19 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/amarante"
                     android:text="200"
+=======
+                    android:tint="@color/purple_500"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/textView11"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amarante"
+                    android:text="150"
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
                     android:textSize="22sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"

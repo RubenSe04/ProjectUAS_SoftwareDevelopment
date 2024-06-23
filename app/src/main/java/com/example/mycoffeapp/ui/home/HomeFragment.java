@@ -18,6 +18,10 @@ import com.example.mycoffeapp.models.HomeHorModel;
 import com.example.mycoffeapp.models.HomeVerModel;
 
 import java.util.ArrayList;
+<<<<<<< HEAD
+=======
+import java.util.List;
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 
 public class HomeFragment extends Fragment implements UpdateVerticalRec {
 
@@ -39,11 +43,19 @@ public class HomeFragment extends Fragment implements UpdateVerticalRec {
         ////////Horizontal Recyclerview
         homeHorModelList = new ArrayList<>();
 
+<<<<<<< HEAD
         homeHorModelList.add(new HomeHorModel(R.drawable.cooofee,"Coffee"));
         homeHorModelList.add(new HomeHorModel(R.drawable.cooofe,"Atlantis"));
         homeHorModelList.add(new HomeHorModel(R.drawable.escrimm,"Ice Cream"));
         homeHorModelList.add(new HomeHorModel(R.drawable.cemilan,"Pizza"));
         homeHorModelList.add(new HomeHorModel(R.drawable.cemilan2,"Fried"));
+=======
+        homeHorModelList.add(new HomeHorModel(R.drawable.coffe,"Coffe"));
+        homeHorModelList.add(new HomeHorModel(R.drawable.atlan1,"Atlantis"));
+        homeHorModelList.add(new HomeHorModel(R.drawable.hamburger,"Hamburger"));
+        homeHorModelList.add(new HomeHorModel(R.drawable.pizza,"Pizza"));
+        homeHorModelList.add(new HomeHorModel(R.drawable.fried_potatoes,"Fried"));
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 
         homeHorAdapter = new HomeHorAdapter(this,getActivity(),homeHorModelList);
         homeHorizontalRec.setAdapter(homeHorAdapter);

@@ -2,6 +2,7 @@ package com.example.mycoffeapp.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
@@ -66,13 +67,44 @@ public class LoginActivity extends AppCompatActivity {
                         }
                     }
                 });
+=======
+import android.view.View;
+
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
+import com.example.mycoffeapp.MainActivity;
+import com.example.mycoffeapp.R;
+
+public class LoginActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_login);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
     }
 
     public void Register(View view) {
         startActivity(new Intent(LoginActivity.this, RegistrationActivity.class));
     }
 
+<<<<<<< HEAD
 //    public void MainActivity(View view) {
 //        startActivity(new Intent(LoginActivity.this, MainActivity.class));
 //    }
+=======
+    public void MainActivity(View view) {
+        startActivity(new Intent(LoginActivity.this, MainActivity.class));
+    }
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 }

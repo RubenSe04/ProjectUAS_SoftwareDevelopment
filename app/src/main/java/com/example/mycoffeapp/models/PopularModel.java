@@ -1,6 +1,7 @@
 package com.example.mycoffeapp.models;
 
 public class PopularModel {
+<<<<<<< HEAD
     int image;
     String name;
     String description;
@@ -35,4 +36,6 @@ public class PopularModel {
         this.description = description;
     }
 
+=======
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 }

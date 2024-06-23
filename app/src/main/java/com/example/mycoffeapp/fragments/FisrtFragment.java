@@ -1,14 +1,25 @@
 package com.example.mycoffeapp.fragments;
 
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+=======
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+<<<<<<< HEAD
+=======
+import android.util.EventLogTags;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 import com.example.mycoffeapp.R;
 import com.example.mycoffeapp.adapters.FeaturedAdapter;
 import com.example.mycoffeapp.adapters.FeaturedVerAdapter;
@@ -47,10 +58,17 @@ public class FisrtFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
         featuredModelsList = new ArrayList<>();
 
+<<<<<<< HEAD
         featuredModelsList.add(new FeaturedModel(R.drawable.atlan1," Crazy Highest Longest Slide","Description 1"));
         featuredModelsList.add(new FeaturedModel(R.drawable.atlan2," Crazy Highest Longest Slide","Description 2"));
         featuredModelsList.add(new FeaturedModel(R.drawable.atlan3," Crazy Highest Longest Slide","Description 3"));
         featuredModelsList.add(new FeaturedModel(R.drawable.atlan4," Crazy Highest Longest Slide","Description 4"));
+=======
+        featuredModelsList.add(new FeaturedModel(R.drawable.atlan1,"Atlantis 1","Description 1"));
+        featuredModelsList.add(new FeaturedModel(R.drawable.atlan2,"Atlantis 2","Description 2"));
+        featuredModelsList.add(new FeaturedModel(R.drawable.atlan3,"Atlantis 3","Description 3"));
+        featuredModelsList.add(new FeaturedModel(R.drawable.atlan4,"Atlantis 4","Description 4"));
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 
         featuredAdapter = new FeaturedAdapter(featuredModelsList);
         recyclerView.setAdapter(featuredAdapter);
@@ -60,6 +78,7 @@ public class FisrtFragment extends Fragment {
         recyclerView2.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.VERTICAL,false));
         featuredVerModelList = new ArrayList<>();
 
+<<<<<<< HEAD
         featuredVerModelList.add(new FeaturedVerModel(R.drawable.coffe0,"Coffee Americano", "Description","5.0","10:00 - 20:00"));
         featuredVerModelList.add(new FeaturedVerModel(R.drawable.coffe8,"Coffee Gula Aren", "Description","5.0","10:00 - 20:00"));
         featuredVerModelList.add(new FeaturedVerModel(R.drawable.coffe9,"Coffee Tora Bika", "Description","5.0","10:00 - 20:00"));
@@ -68,6 +87,16 @@ public class FisrtFragment extends Fragment {
         featuredVerModelList.add(new FeaturedVerModel(R.drawable.cofe1,"Coffee Capucino", "Description","5.0","10:00 - 20:00"));
         featuredVerModelList.add(new FeaturedVerModel(R.drawable.cofe2,"Coffee Caramel", "Description","5.0","10:00 - 20:00"));
         featuredVerModelList.add(new FeaturedVerModel(R.drawable.cofe3,"Coffee Susu", "Description","5.0","10:00 - 20:00"));
+=======
+        featuredVerModelList.add(new FeaturedVerModel(R.drawable.coffe0,"Coffee 1", "Description","4.8","10:00 - 20:00"));
+        featuredVerModelList.add(new FeaturedVerModel(R.drawable.coffe8,"Coffee 2", "Description","4.7","10:00 - 20:00"));
+        featuredVerModelList.add(new FeaturedVerModel(R.drawable.coffe9,"Coffee 3", "Description","4.5","10:00 - 20:00"));
+        featuredVerModelList.add(new FeaturedVerModel(R.drawable.coffe10,"Coffee 4", "Description","4.8","10:00 - 20:00"));
+        featuredVerModelList.add(new FeaturedVerModel(R.drawable.coffe,"Coffee 4", "Description","4.8","10:00 - 20:00"));
+        featuredVerModelList.add(new FeaturedVerModel(R.drawable.cofe1,"Coffee 4", "Description","4.8","10:00 - 20:00"));
+        featuredVerModelList.add(new FeaturedVerModel(R.drawable.cofe2,"Coffee 4", "Description","4.8","10:00 - 20:00"));
+        featuredVerModelList.add(new FeaturedVerModel(R.drawable.cofe3,"Coffee 4", "Description","4.8","10:00 - 20:00"));
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 
         featuredVerAdapter = new  FeaturedVerAdapter(featuredVerModelList);
         recyclerView2.setAdapter(featuredVerAdapter);

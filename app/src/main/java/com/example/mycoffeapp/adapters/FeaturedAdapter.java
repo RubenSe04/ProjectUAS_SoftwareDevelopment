@@ -12,6 +12,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.mycoffeapp.R;
 import com.example.mycoffeapp.models.FeaturedModel;
 
+<<<<<<< HEAD
+=======
+import org.w3c.dom.Text;
+
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 import java.util.List;
 
 public class FeaturedAdapter extends RecyclerView.Adapter<FeaturedAdapter.ViewHolder> {

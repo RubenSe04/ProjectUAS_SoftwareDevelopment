@@ -1,12 +1,20 @@
 package com.example.mycoffeapp.models;
 
+<<<<<<< HEAD
 public class CartModel {
+=======
+public class CardModel {
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
     int image;
     String name;
     String price;
     String rating;
 
+<<<<<<< HEAD
     public CartModel(int image, String name, String price, String rating) {
+=======
+    public CardModel(int image, String name, String price, String rating) {
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
         this.image = image;
         this.name = name;
         this.price = price;

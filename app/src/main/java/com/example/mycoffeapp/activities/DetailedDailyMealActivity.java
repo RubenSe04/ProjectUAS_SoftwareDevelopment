@@ -5,6 +5,12 @@ import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+<<<<<<< HEAD
+=======
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -74,10 +80,17 @@ public class DetailedDailyMealActivity extends AppCompatActivity {
 
         if (type != null && type.equalsIgnoreCase("Ice cream")){
             imageView.setImageResource(R.drawable.ice_cream);
+<<<<<<< HEAD
             detailedDailyModelList.add(new DetailedDailyModel(R.drawable.icecream1,"Ice Cream","description","4.5","35","10 to 9"));
             detailedDailyModelList.add(new DetailedDailyModel(R.drawable.icecream2,"Ice Cream","description","4.5","35","10 to 9"));
             detailedDailyModelList.add(new DetailedDailyModel(R.drawable.icecream3,"Ice Cream","description","4.5","35","10 to 9"));
             detailedDailyModelList.add(new DetailedDailyModel(R.drawable.icecream4,"Ice Cream","description","4.5","35","10 to 9"));
+=======
+            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.icecream1,"Dinner","description","4.5","35","10 to 9"));
+            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.icecream2,"Dinner","description","4.5","35","10 to 9"));
+            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.icecream3,"Dinner","description","4.5","35","10 to 9"));
+            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.icecream4,"Dinner","description","4.5","35","10 to 9"));
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
             dailyAdapter.notifyDataSetChanged();
         }
 

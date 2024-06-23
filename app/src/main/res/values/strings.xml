@@ -50,5 +50,8 @@
     <string name="_10_weekend_delicius_ndinner_recipes">10 weekend Delicius \nDinner Recipes</string>
     <string name="make_order">make order</string>
     <string name="total">Total</string>
+<<<<<<< HEAD
     <string name="_5_0">5.0</string>
+=======
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 </resources>

@@ -64,7 +64,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/amita"
+<<<<<<< HEAD
         android:text="$152.000"
+=======
+        android:text="$180"
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button"
@@ -73,12 +77,24 @@
 
     <Button
         android:id="@+id/button"
+<<<<<<< HEAD
         android:layout_width="286dp"
         android:layout_height="53dp"
         android:text="@string/make_order"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
+=======
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="286dp"
+        android:layout_height="53dp"
+        android:text="@string/make_order"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:theme="@style/Theme.MaterialComponents"
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
         app:backgroundTint="@color/purple_500"
         app:cornerRadius="50dp"
         app:elevation="5dp"

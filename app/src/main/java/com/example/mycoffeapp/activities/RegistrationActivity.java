@@ -2,6 +2,7 @@ package com.example.mycoffeapp.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
@@ -21,10 +22,21 @@ public class RegistrationActivity extends AppCompatActivity {
     EditText name,email,password;
     private FirebaseAuth auth;
 
+=======
+import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.mycoffeapp.R;
+
+public class RegistrationActivity extends AppCompatActivity {
+
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
+<<<<<<< HEAD
 
         getSupportActionBar().hide();
         auth = FirebaseAuth.getInstance();
@@ -80,5 +92,16 @@ public class RegistrationActivity extends AppCompatActivity {
 //    public void Register(View view) {
 //        startActivity(new Intent(RegistrationActivity.this, LoginActivity.class));
 //    }
+=======
+    }
+
+    public void Login(View view) {
+        startActivity(new Intent(RegistrationActivity.this, LoginActivity.class));
+    }
+
+    public void Register(View view) {
+        startActivity(new Intent(RegistrationActivity.this, LoginActivity.class));
+    }
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 
 }

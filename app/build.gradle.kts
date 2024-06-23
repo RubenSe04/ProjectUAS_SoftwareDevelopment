@@ -45,13 +45,17 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.firebase.perf)
     implementation(libs.firebase.auth)
+<<<<<<< HEAD
     implementation(libs.firebase.database)
+=======
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
     //Rounded Imageview
     implementation("com.makeramen:roundedimageview:2.3.0")
+<<<<<<< HEAD
 
     dependencies {
         // Import the BoM for the Firebase platform
@@ -64,4 +68,6 @@ dependencies {
         // Also add the dependency for the Google Play services library and specify its version
         implementation("com.google.android.gms:play-services-auth:21.2.0")
     }
+=======
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 }

@@ -11,13 +11,19 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.mycoffeapp.R;
 import com.example.mycoffeapp.models.DetailedDailyModel;
+<<<<<<< HEAD
 import com.google.android.material.bottomsheet.BottomSheetDialog;
+=======
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
 
 import java.util.List;
 
 public class DetailedDailyAdapter extends RecyclerView.Adapter<DetailedDailyAdapter.ViewHolder> {
 
+<<<<<<< HEAD
     private BottomSheetDialog bottomSheetDialog;
+=======
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
     List<DetailedDailyModel> list;
 
     public DetailedDailyAdapter(List<DetailedDailyModel> list) {
@@ -39,8 +45,11 @@ public class DetailedDailyAdapter extends RecyclerView.Adapter<DetailedDailyAdap
         holder.description.setText(list.get(position).getDescription());
         holder.timing.setText(list.get(position).getTiming());
         holder.rating.setText(list.get(position).getRating());
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 7ba663261b84211089979303eaa809cf8cb0d744
     }
 
     @Override
